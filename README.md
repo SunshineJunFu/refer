@@ -19,6 +19,12 @@ Kazemzadeh, Sahar, et al. "ReferItGame: Referring to Objects in Photographs of N
 Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 ```
 
+##Prerequistes
++ skimage
++ matplotlib
++ numpy
+
+
 ## Compile
 
 ### COCO
