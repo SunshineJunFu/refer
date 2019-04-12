@@ -147,7 +147,7 @@ Refs Info
 }
 
 ```
-**More details lie in http://cocodataset.org/#download **
+**More details lie in [Coco](http://cocodataset.org/#download)**
 
 ## How to use
 The "refer.py" is able to load all 4 datasets with different kinds of data split by UNC, Google, UMD and UC Berkeley.
