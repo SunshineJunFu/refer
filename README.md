@@ -73,9 +73,6 @@ Download coco dataset(http://cocodataset.org/#download)
 The "refer.py" is able to load all 4 datasets with different kinds of data split by UNC, Google, UMD and UC Berkeley.
 **Note for RefCOCOg, we suggest use UMD's split which has train/val/test splits and there is no overlap of images between different split.**
 ```bash
-data_root = $DATA_PATH
-```
-```bash
 # locate your own data_root, and choose the dataset_splitBy you want to use
 refer = REFER(data_root, dataset='refclef',  splitBy='unc')
 refer = REFER(data_root, dataset='refclef',  splitBy='berkeley') # 2 train and 1 test images missed
@@ -93,3 +90,5 @@ ignore filename
 Each sentences is a list of sent
 {arw, sent, sent_id, tokens}
  -->
+ 
+ **It worth noting that the value of  data_root should be the $DATA_PATH.**
