@@ -28,6 +28,12 @@ cd ./data/coco/PythonAPI
 make 
 ```
 
+### Refer 
+
+```bash
+make 
+```
+
 
 
 
