@@ -81,6 +81,74 @@ Download the cleaned data and extract them into "data" folder
 
 Download coco dataset(http://cocodataset.org/#download)
 
+### Dataset Format 
+refclef / refcoco /refcoco+ / refcocog
+
++ instances.json
+
+```json
+{
+	image: [imageInfo],
+	annotations: [annotationInfo],
+	categories: [categoriesInfo]
+}
+
+imageInfo Format 
+{
+	"license": 1, 
+	"file_name": "COCO_train2014_000000333492.jpg", 
+	"coco_url": "http://mscoco.org/images/333492", 
+	"height": 381, 
+	"width": 500, 
+	"date_captured": "2013-11-19 20:56:23", 
+	"flickr_url":"http://farm4.staticflickr.com/3230/2704279889_b2de54aa0e_z.jpg", 
+	“id”: 333492 
+}
+annotationInfo Format 
+{
+"segmentation": 
+[[201.15, 387.74, 201.15, 370.28, 202.39, 356.14, 212.37, 345.33, 217.78, 345.75, 224.43, 347.41, 234.83, 343.67, 238.98, 348.66, 242.31, 367.79, 239.82, 375.27, 236.07, 385.66, 234.83, 393.98, 229.42, 400.22, 210.29, 407.7, 201.56, 399.8]],
+"area": 2049.5451499999995, 
+"iscrowd": 0, 
+"image_id": 84610, 
+"bbox": [201.15, 343.67, 41.16, 64.03], 
+"category_id": 52, 
+“id”: 1042617  
+}
+categoriesInfo
+{
+"supercategory": "food", 
+"id": 59, 
+"name": "pizza“
+
+}
+```
++ refs(google).p
+```json
+{
+refs: [refsInfo]
+}
+
+Refs Info
+
+{
+'image_id': 388997, 
+'split': 'val', 
+'sentences': [{'tokens': ['the', 'nurse', 'in', 'the', 'picture'], 'raw': 'The nurse in the picture.', 'sent_id': 67225, 'sent': 'the nurse in the picture'}, 
+{'tokens': ['a', 'woman', 'with', 'blond', 'hair', 'wearing', 'a', 'blue', 'shirt'], 'raw': 'A woman with blond hair wearing a blue shirt.', 'sent_id': 67226, 'sent': 'a woman with blond hair wearing a blue shirt'}], 
+'file_name': 'COCO_train2014_000000388997_445869.jpg', 
+'category_id': 1, 
+'ann_id': 445869,
+ 'sent_ids': [67225, 67226], 
+'ref_id': 3208
+
+
+}
+
+
+```
+
+
 ## How to use
 The "refer.py" is able to load all 4 datasets with different kinds of data split by UNC, Google, UMD and UC Berkeley.
 **Note for RefCOCOg, we suggest use UMD's split which has train/val/test splits and there is no overlap of images between different split.**
