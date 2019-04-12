@@ -86,7 +86,7 @@ refclef / refcoco /refcoco+ / refcocog
 
 + instances.json
 
-```json
+```bash
 {
 	image: [imageInfo],
 	annotations: [annotationInfo],
@@ -124,7 +124,7 @@ categoriesInfo
 }
 ```
 + refs(google).p
-```json
+```bash
 {
 refs: [refsInfo]
 }
