@@ -1,7 +1,7 @@
 ## Attention 
 This is a copy branch from https://github.com/lichengunc/refer and utilized to reproduce MAtt.
 
-Compared to [old verison](https://github.com/lichengunc/refer.), this branch is extended to python3.x.
+Compared to [old verison](https://github.com/lichengunc/refer.), this branch is extended to python3.x and rectifies something.
 
 
 
