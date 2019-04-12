@@ -1,7 +1,9 @@
 ## Attention 
-This is a copy branch from https://github.com/lichengunc/refer.
+This is a copy branch from https://github.com/lichengunc/refer and utilized to reproduce MAtt.
 
 Compared to [old verison](https://github.com/lichengunc/refer.), this branch is extended to python3.x.
+
+
 
 ## Note
 This API is able to load all 4 referring expression datasets, i.e., RefClef, RefCOCO, RefCOCO+ and RefCOCOg. 
