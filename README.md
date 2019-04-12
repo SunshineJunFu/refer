@@ -23,6 +23,7 @@ Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 + skimage
 + matplotlib
 + numpy
++ jupyter notebook && conda install nb_conda (change kernel)
 
 
 ## Compile
