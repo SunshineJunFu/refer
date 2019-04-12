@@ -51,7 +51,7 @@ class REFER:
 		self.DATA_DIR = osp.join(data_root, dataset)
 
 		if dataset in ['refcoco', 'refcoco+', 'refcocog']:
-			self.IMAGE_DIR = osp.join(data_root, 'images/mscoco/images/train2014')
+			self.IMAGE_DIR = osp.join(data_root, 'images/mscoco/train2014')
 		elif dataset == 'refclef':
 			self.IMAGE_DIR = osp.join(data_root, 'images/saiapr_tc-12')
 		else:
@@ -257,7 +257,7 @@ class REFER:
 			if type(ann['segmentation'][0]) == list:
 				# polygon used for refcoco* 
 				for seg in ann['segmentation']:
-					poly = np.array(seg).reshape((len(seg)/2, 2))
+					poly = np.array(seg).reshape((-1, int(2))) #int(len(seg)//2
 					polygons.append(Polygon(poly, True, alpha=0.4))
 					color.append(c)
 				p = PatchCollection(polygons, facecolors=color, edgecolors=(1,1,0,0), linewidths=3, alpha=1)
@@ -339,7 +339,7 @@ class REFER:
 
 
 if __name__ == '__main__':
-	refer = REFER('../coco/',dataset='refcocog', splitBy='google')
+	refer = REFER('../../data/',dataset='refcocog', splitBy='google')
 	ref_ids = refer.getRefIds()
 	print(len(ref_ids))
 
