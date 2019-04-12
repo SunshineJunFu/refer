@@ -104,6 +104,7 @@ imageInfo Format
 	"flickr_url":"http://farm4.staticflickr.com/3230/2704279889_b2de54aa0e_z.jpg", 
 	“id”: 333492 
 }
+
 annotationInfo Format 
 {
 "segmentation": 
@@ -115,6 +116,7 @@ annotationInfo Format
 "category_id": 52, 
 “id”: 1042617  
 }
+
 categoriesInfo
 {
 "supercategory": "food", 
@@ -130,7 +132,6 @@ refs: [refsInfo]
 }
 
 Refs Info
-
 {
 'image_id': 388997, 
 'split': 'val', 
@@ -144,7 +145,6 @@ Refs Info
 
 
 }
-
 
 ```
 
