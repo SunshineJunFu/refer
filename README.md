@@ -17,6 +17,22 @@ Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 ```
 
 ## Setup
+
+### COCO
+
+```bash
+git clone https://github.com/cocodataset/cocoapi.git /data/coco
+
+cd ./data/coco/PythonAPI
+
+make 
+```
+
+
+
+
+
+
 Run "make" before using the code.
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 These mask-related codes are copied from mscoco [API](https://github.com/pdollar/coco).
