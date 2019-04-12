@@ -32,7 +32,7 @@ Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 ```bash
 git clone https://github.com/cocodataset/cocoapi.git ./coco
 
-cd ./data/coco/PythonAPI
+cd ./coco/PythonAPI
 
 make 
 ```
