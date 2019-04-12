@@ -57,7 +57,7 @@ $DATA_PATH
 └── refclef
    	├── instances.json
   	├── refs(unc).p
-	  └── refs(berkeley).p
+	└── refs(berkeley).p
 ```
 
 ### Download
