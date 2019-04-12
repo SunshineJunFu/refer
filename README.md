@@ -104,3 +104,4 @@ Each sentences is a list of sent
  **It worth noting that the value of  data_root should be the $DATA_PATH.**
 
 ## Example
+To be familiar with refer.py, please use pyReferDemo.ipynb for a try.
