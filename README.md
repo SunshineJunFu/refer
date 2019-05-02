@@ -30,6 +30,15 @@ Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 
 ## Compile
 
+
+
+### Refer 
+
+```bash
+make 
+```
+
+
 ### COCO
 
 ```bash
@@ -40,11 +49,6 @@ cd ./coco/PythonAPI
 make 
 ```
 
-### Refer 
-
-```bash
-make 
-```
 
 ## Prepare Data 
 
