@@ -186,3 +186,4 @@ To be familiar with refer.py, please use pyReferDemo.ipynb for a try.
 + the description may has multiple sentences
 + ann_id is corresponding to an annotation which provides bbox(xyhw), classification,....
 + ref_id is corresponding to an reference which provides text description.
++ the number of object in certain image is not constant.
