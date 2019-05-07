@@ -179,3 +179,8 @@ Each sentences is a list of sent
 
 ## Example
 To be familiar with refer.py, please use pyReferDemo.ipynb for a try.
+
+## Tips
++ one picture has multiple objects 
++ refcoco* only has one description for certain object in one picture 
++ the description may has multiple sentences
