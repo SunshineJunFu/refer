@@ -184,3 +184,5 @@ To be familiar with refer.py, please use pyReferDemo.ipynb for a try.
 + one picture has multiple objects 
 + refcoco* only has one description for certain object in one picture 
 + the description may has multiple sentences
++ ann_id is corresponding to an annotation which provides bbox(xyhw), classification,....
++ ref_id is corresponding to an reference which provides text description.
