@@ -142,7 +142,7 @@ Refs Info
 'sentences': [{'tokens': ['the', 'nurse', 'in', 'the', 'picture'], 'raw': 'The nurse in the picture.', 'sent_id': 67225, 'sent': 'the nurse in the picture'}, 
 {'tokens': ['a', 'woman', 'with', 'blond', 'hair', 'wearing', 'a', 'blue', 'shirt'], 'raw': 'A woman with blond hair wearing a blue shirt.', 'sent_id': 67226, 'sent': 'a woman with blond hair wearing a blue shirt'}], 
 // new feature 
-'scene_graph':[{'relation':{}, 'attribute':{}, 'word':{}}]
+'scene_graph':[{'relation':{}, 'attribute':{}, 'tokens':{}}]
 'file_name': 'COCO_train2014_000000388997_445869.jpg', 
 'category_id': 1, 
 'ann_id': 445869,
