@@ -60,12 +60,12 @@ class REFER:
 
 		# load refs from data/dataset/refs(dataset).json
 		tic = time.time()
-		ref_file = osp.join(self.DATA_DIR, 'refs('+splitBy+').p')  # 这是啥 ？？？ 话语描述 
+		ref_file = osp.join(self.DATA_DIR, 'refs('+splitBy+').p')  # ref file path 
 		self.data = {}
 		self.data['dataset'] = dataset
-		self.data['refs'] = pickle.load(open(ref_file, 'rb')) #python3 need to be rb 
+		self.data['refs'] = pickle.load(open(ref_file, 'rb')) # python3 need to be rb 
 
-		# load annotations from data/dataset/instances.json  ?????????? what's this meaning ???
+		# load annotations from data/dataset/instances.json #
 		instances_file = osp.join(self.DATA_DIR, 'instances.json')
 		instances = json.load(open(instances_file, 'r'))
 		self.data['images'] = instances['images']
