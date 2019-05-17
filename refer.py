@@ -47,7 +47,7 @@ class REFER:
 		# also provide dataset name and splitBy information
 		# e.g., dataset = 'refcoco', splitBy = 'unc'
 		print('loading dataset %s into memory...' % dataset)
-		self.ROOT_DIR = osp.abspath(osp.dirname(__file__))
+		# self.ROOT_DIR = osp.abspath(osp.dirname(__file__))
 		self.DATA_DIR = osp.join(data_root, dataset)
 
 		if dataset in ['refcoco', 'refcoco+', 'refcocog']:
