@@ -144,10 +144,8 @@ Refs Info
 'file_name': 'COCO_train2014_000000388997_445869.jpg', 
 'category_id': 1, 
 'ann_id': 445869,
- 'sent_ids': [67225, 67226], 
+'sent_ids': [67225, 67226], 
 'ref_id': 3208
-
-
 }
 
 ```
